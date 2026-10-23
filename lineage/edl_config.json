@@ -1,0 +1,1 @@
+{"supported_functions": ["program", "read", "nop", "patch", "configure", "setbootablestoragedrive", "erase", "power", "firmwarewrite", "getstorageinfo", "benchmark", "emmc", "ufs", "fixgpt"], "programmer": "/home/nithilan/Projects/lg-g7-thinq-unlocked/tools/linux/prog_ufs_firehose_Sdm845_lge.elf", "serial": 2472777118}

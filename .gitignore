@@ -1,0 +1,28 @@
+# Large binaries stay on disk but are not versioned.
+# MANIFEST.sha256 records their SHA256 for integrity proof.
+firmware/*.kdz
+tools/windows/unlock845-toolkit/Unlock845.zip
+backups/*.bin
+backups/misc-original/*.bin
+verification-readbacks/*.bin
+state-sweeps/*.bin
+images/*.bin
+images/*.img
+# Git working copies of upstream tools (provenance recorded in INVENTORY.md)
+tools/linux/edl/
+tools/linux/lglaf/
+tools/linux/lglaf-nak3d-gitlab/
+tools/linux/lglaf-nak3d-github/
+# LineageOS artefacts: large, and re-downloadable with recorded hashes
+lineage/*.zip
+lineage/*.img
+lineage/gapps/*.zip
+lineage/magisk/*.img
+lineage/magisk/*.apk
+# Windows payloads live on archive.org and in the GitHub release, not in git
+tools/windows/unlock845-toolkit/Unlock845-3.0_rev1.0-G7/
+tools/windows/unlock845-toolkit/Unlock845.zip
+tools/windows/installers/*.msi
+# keep the three crown-jewel images in git (tiny, irreplaceable)
+!images/eabl.img
+!images/frp-patched.img
