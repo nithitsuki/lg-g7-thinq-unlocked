@@ -1,0 +1,2 @@
+getvar:all                                         FAILED (remote: 'unknown command')
+Finished. Total time: 0.001s
